@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sort and Filter</title>
+  </head>
+  <body>
+    <section class="sort-and-filter">
+      <div class="sort-and-filter-container">
+        <!-- Sort-By -->
+        <h3 class="primary-heading">Sort By</h3>
+        <div class="sort-by-buttons-flex">
+          <div class="a-z-flex">
+            <img src="./asset/done-icon.svg" />
+            <span class="a-z-button">A-Z</span>
+          </div>
+          <span class="joined-by-button">Joined By</span>
+        </div>
+        <div class="horizontal-line"></div>
+
+        <!-- Filter-By -->
+        <h3 class="primary-heading">Filter By</h3>
+        <div class="filter-by-child-container">
+          <!-- Groups -->
+          <div class="filter-by-child groups-container">
+            <div class="filter-by-child-headings">
+              <h4 class="secondary-heading">Groups</h4>
+              <img src="./asset/arrow-up.svg" class="drawer-arrow-img" />
+            </div>
+            <div class="filter-child-inputs-container">
+              <div class="child-input-flex">
+                <input type="radio" id="admin" value="Admin" />
+                <label for="admin">Admin</label>
+              </div>
+              <div class="child-input-flex">
+                <input type="radio" id="engineer" value="Engineer" />
+                <label for="engineer">Engineer</label>
+              </div>
+              <div class="child-input-flex">
+                <input type="radio" id="field" value="Field" />
+                <label for="field">Field</label>
+              </div>
+            </div>
+          </div>
+          <div class="horizontal-line"></div>
+          <!-- Status -->
+          <div class="filter-by-child status-container">
+            <div class="filter-by-child-headings">
+              <h4 class="secondary-heading">Status</h4>
+              <img src="./asset/arrow-up.svg" class="drawer-arrow-img" />
+            </div>
+            <div class="filter-child-inputs-container">
+              <div class="child-input-flex">
+                <input type="radio" id="active" value="Active" />
+                <label for="active">Active</label>
+              </div>
+              <div class="child-input-flex">
+                <input type="radio" id="inactive" value="Inactive" />
+                <label for="inactive">Inactive</label>
+              </div>
+            </div>
+          </div>
+          <div class="horizontal-line"></div>
+          <!-- Regions -->
+
+          <div class="filter-by-child-headings">
+            <h4 class="secondary-heading">Regions</h4>
+            <img src="./asset/arrow-up.svg" class="drawer-arrow-img" />
+          </div>
+          <div class="filter-by-child">
+            <div class="filter-child-inputs-container">
+              <div class="child-input-flex">
+                <input type="checkbox" id="england" value="England" />
+                <label for="england">England</label>
+              </div>
+              <div class="child-input-flex">
+                <input type="checkbox" id="scotland" value="Scotland" />
+                <label for="scotland">Scotland</label>
+              </div>
+              <div class="child-input-flex">
+                <input type="checkbox" id="ireland" value="Ireland" />
+                <label for="ireland">Ireland</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
